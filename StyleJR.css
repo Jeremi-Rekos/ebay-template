@@ -10,7 +10,7 @@ body{
   overflow-x: hidden;
 }
 main {
-  height: 2700px;
+  height: 3400px;
 }
 .container_1 {
   margin: 10px;
@@ -63,18 +63,18 @@ header {
   color: rgb(151, 151, 151);
 }
 .banner .banner-img {
-  width: 94%;
-  height: 500px;
+  height: 580px;
   z-index: 2;
 }
 .banner {
   position: relative;
-  height: 520px;
+  height: 600px;
 }
 .banner-img {
+
   position: absolute;
   top: 10px;
-  left: 29px;
+  left: 47px;
   box-shadow: 1px 1px 4px #00000086;
 }
 .info {
@@ -99,7 +99,7 @@ header {
 }
 .kafelek {
   background-color: #ffffff;
-  width: 30%;
+  width: 23%;
   height: 90%;
   border: 2px #000 solid;
   display: flex;
@@ -109,6 +109,7 @@ header {
   position: relative;
   box-shadow: 1px 1px 4px #000000a4;
   transition: 0.4s;
+  font-size: 15px;
 }
 .kafelek:hover {
   transform: scale(1.05);
@@ -157,7 +158,6 @@ header {
 margin-top:10px;
 margin-left: 10px;
 }
-
 .opis-prawy{
   background-color: #ffffff;
   height: 100%;
@@ -169,9 +169,10 @@ margin-left: 10px;
 }
 .opisv2{
   padding-bottom: 30px;
+  height: 600px;
 }
 .opisv2-lewy{
-  height: 100%;
+  height: 95%;
   width: 50%;
   position: relative;
   font-weight: 600;
@@ -188,9 +189,10 @@ margin-left: 10px;
 }
 .opisv2-lewy img{
   max-height:570px;
+  max-width: 100%;
 }
 .opisv2-prawy{
-  height: 100%;
+  height: 90%;
   width: 50%;
   display: flex;
   justify-content: center;
@@ -233,6 +235,17 @@ text-decoration: underline;
 .button-box a{
   text-decoration: none;
   color:inherit
+}
+.wysylka{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  margin: 20px 0px;
+}
+.wysylka img{
+  max-height: 600px;
 }
  .tabs{
   height: 400px;
@@ -337,20 +350,21 @@ footer a{
 footer h5{
   font-size: 25px;
 }
+
 @media only screen and (max-width: 1145px) {
 
-  main{
-    height: 2900px;
-  }
+main{
+  height: 3500px;
+}
 .container_2{
   width: 900px;
   margin: auto;
 }
 .banner{
-  height: 400px;
+  height: 450px;
 }
 .banner-img{
-  max-height: 400px;
+  max-height: 450px;
 }
 .line{
   width: 700px;
@@ -380,17 +394,20 @@ footer h5{
 .button-box button{
   padding: 5px 20px;
 }
+.kafelek{
+  font-size:13px;
+}
 }
 @media only screen and (max-width: 950px){
-  main{
-    height: 2650px;
-  }
+main{
+  height: 3100px;
+}
 .container_2{
   width: 500px;
   margin: auto;
 }
 .banner{
-  height: 400px;
+  height: 250px;
 }
 .banner-img{
   max-height: 180px;
@@ -402,10 +419,8 @@ footer h5{
   width: 400px;
 }
 .banner img{
-  left:14px
-}
-.banner{
-  height: 200px;
+  left:40px;
+  max-height:230px;
 }
 .info{
   height: 300px;
@@ -414,12 +429,15 @@ footer h5{
   display: block;
   position: relative;
   height: 100%;
-
+}
+.info{
+  height: 400px;
 }
 .kafelek{
-  height: 25%;
+  height: 20%;
   width: 90%;
   margin: 10px;
+  font-size: 17px;;
 }
 .sec-nav{
   font-size:medium;
@@ -459,5 +477,11 @@ footer h5{
 .tabs_radio:checked + .tabs_label + .tab_content{
   margin-top: 40px;
   width: 400px;
+}
+.wysylka{
+  height: 400px;
+}
+.wysylka img{
+  max-height: 300px;
 }
 }
