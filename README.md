@@ -6,7 +6,7 @@ This template is used in every Brenor shopping listing on Ebay. It is personaliz
 
 ## Preview
 
-![Template Preview](**images**)
+![Template Preview](./Images/ebay-template.png)
 
 ## Technologies :computer:
 
